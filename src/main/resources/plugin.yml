@@ -1,1 +1,20 @@
+name: Genesis
+version: 1.0.0
+main: com.genesis.Genesis
+api-version: 1.20
+author: GenesisSMP
+description: DNA abilities plugin for Genesis SMP
 
+commands:
+  dna:
+    description: Activate your DNA abilities
+    usage: /dna <ability>
+    aliases: [ability, abilities]
+
+permissions:
+  genesis.use:
+    description: Allows use of Genesis items
+    default: true
+  genesis.admin:
+    description: Admin permissions
+    default: op
